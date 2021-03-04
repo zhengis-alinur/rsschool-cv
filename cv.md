@@ -20,3 +20,14 @@ I gained unmeasurable pack of personal qualities which are extremely needed for 
 - Git, GitHub
 - IntelligIDEA, WebStorm
 - Maven
+
+### Projects and some codes
+- [EnglishLearningApp](https://github.com/zhengis-alinur/EnglishLearningApp.git) - is a Java desktop application, which helps everyone to learn English or any other languages by extending their vocabulary. EnglishLearningApp provides you some tools for it, such learning with using cards with words and typing sentences using given word.
+- [Piano](https://github.com/zhengis-alinur/VirtualPiano-frontend.git) - is a web-application which provides you a virtual mini-piano(because it has only 12 keys). If you click on particular buttons in your keyboard virtual piano produce sounds.
+- [CodeWars training](https://github.com/zhengis-alinur/CodeWars.git) - I've a repository, where I post solutions for Katas from [codewars.com](codewars.com). Mostly I prefer Java.
+- [BeatBox](https://github.com/zhengis-alinur/BeatBox.git) - is a Java desktop application, which looks like musical equipment, where you can make some insane beats.
+
+### Education
+- School **Daryn** focusing on mathematics and physics. Kazakhstan, Karaganda.
+- Saint-Petersburg State University in department of Computational Physics. Russian, Saint-Petersburg.(**now**)
+- Jetbrains Academy - Frontend developer(HTML, CSS, JS).
