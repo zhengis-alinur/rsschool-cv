@@ -31,3 +31,7 @@ I gained unmeasurable pack of personal qualities which are extremely needed for 
 - School **Daryn** focusing on mathematics and physics. Kazakhstan, Karaganda.
 - Saint-Petersburg State University in department of Computational Physics. Russian, Saint-Petersburg.(**now**)
 - Jetbrains Academy - Frontend developer(HTML, CSS, JS).
+
+### English
+I've passed an **IELTS** exam in 2018 for B1+ level. In summer of 2020 I passed a test to B2 level at Saint-Petersburg State University.
+#### My level: B2
