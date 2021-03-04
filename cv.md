@@ -11,3 +11,12 @@ I gained unmeasurable pack of personal qualities which are extremely needed for 
 - perseverance
 - curiosity ...
 
+### Skills
+- Java SE8
+- HTML5, CSS3
+- Javascript
+- MySQL
+- Java EE, Apache Tomcat, Servlets, JSP
+- Git, GitHub
+- IntelligIDEA, WebStorm
+- Maven
