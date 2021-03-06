@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #E5B8E4,#6FADFC,#DC9AED);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: darkgray;
+}
+
+.glass {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px;
+    padding: 30px;
+    background: linear-gradient(45deg, rgba(255,255,255,0.4), rgba(255, 255, 255, 0.4));
+    border-radius: 60px;
+}
+
+#avatar {
+    border-radius: 150px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    border-radius: 40px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+.profile h3 {
+    text-align: start;
+}
+
+
+.professional {
+    display: flex;
+}
+
+.skills {
+    flex-grow: 1;
+}
+
+.projects {
+    max-width: 60%;
+    min-width: 65%;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 80px;
+}
+
+

@@ -5,81 +5,97 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      ul {
-        margin: 0;
-      }
-      .section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-      }
-    </style>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>My CV</h1>
-    <h2>Full-stack web-developer</h2>
-    <div class="section" id="about">
-        <h3>About</h3>
-        <img src="https://avatars.githubusercontent.com/u/62282182?s=460&u=7cb71a961e5bf8f8e8cf4402f89ddcc64b7f55e4&v=4" alt="profile image">
-        <p>My name is <b>Zhengis Alinur</b>, 3rd year student at <b>Saint-Petersburg State University in department of Computational Physics</b>.
-        I had came into programming when I was in 8th grade at school. I was excited by the things which are possible to implement with knowing a programming and computers.<br>
-        So that time I decided to connect my future with this area. It has gone 6 years from first programm written by myself, and I want to continue and grow up as professional software developer.</p>
-        <p>I have a big experience in programming LEGO robots. Every time I code something I think about my schooltime, when I was spending all my time to implement some particular functions, which are required in robototechnic competitions.
-        I gained unmeasurable pack of personal qualities which are extremely needed for programmers:</p>
-        <ul>
-            <li>purposefulness</li>
-            <li>perseverance</li>
-            <li>curiosity</li>
-        </ul>
+    <div class="glass" id="main">
+        <h1>Full-stack web-developer</h1>
+        <section class="about">
+            <figure>
+                <img id="avatar" src="https://avatars.githubusercontent.com/u/62282182?s=460&u=7cb71a961e5bf8f8e8cf4402f89ddcc64b7f55e4&v=4" alt="profile image">
+                <figcaption>Zhengis Alinur</figcaption>
+            </figure>
+            <div class="profile">
+                <h3>About</h3>
+                <article id="about_article">
+                    <p>My name is <b>Zhengis Alinur</b>, 3rd year student at <b>Saint-Petersburg State University in department of Computational Physics</b>.
+                        I had came into programming when I was in 8th grade at school. I was excited by the things which are possible to implement with knowing a programming and computers.<br>
+                        So that time I decided to connect my future with this area. It has gone 6 years from first programm written by myself, and I want to continue and grow up as professional software developer.</p>
+                    <p>I have a big experience in programming LEGO robots. Every time I code something I think about my schooltime, when I was spending all my time to implement some particular functions, which are required in robototechnic competitions.
+                        I gained unmeasurable pack of personal qualities which are extremely needed for programmers:</p>
+                    <ul>
+                        <li>purposefulness</li>
+                        <li>perseverance</li>
+                        <li>curiosity</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <div class="professional">
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Java SE8</li>
+                    <li>HTML5, CSS3</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                    <li>Java EE, Apache Tomcat, Servlets, JSP</li>
+                    <li>Git, GitHub</li>
+                    <li>IntelligIDEA, WebStorm</li>
+                    <li>Maven</li>
+                </ul>
+            </section>
+            <section class="projects">
+                <h3>Projects and some codes</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/zhengis-alinur/EnglishLearningApp.git">EnglishLearningApp</a>
+                        <span> - is a Java desktop application, which helps everyone to learn English or any other languages by extending their vocabulary. EnglishLearningApp provides you some tools for it, such learning with using cards with words and typing sentences using given word.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/zhengis-alinur/CodeWars.git">CodeWars training</a>
+                        <span> - I've a repository, where I post solutions for Katas from <a href="https://codewars.com">codewars.com</a>. Mostly I prefer Java.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/zhengis-alinur/VirtualPiano-frontend.git">Piano</a>
+                        <span> - is a web-application which provides you a virtual mini-piano(because it has only 12 keys). If you click on particular buttons in your keyboard virtual piano produce sounds.</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/zhengis-alinur/BeatBox.git">BeatBox</a>
+                        <span> - is a Java desktop application, which looks like musical equipment, where you can make some insane beats.</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <section class="education">
+            <h3>Education</h3>
+            <ul>
+                <li>School <b>Daryn</b> focusing on mathematics and physics. Kazakhstan, Karaganda.</li>
+                <li>Saint-Petersburg State University in department of Computational Physics. Russian, Saint-Petersburg.(<b>now</b>)</li>
+                <li>Jetbrains Academy - Frontend developer(HTML, CSS, JS).</li>
+            </ul>
+        </section>
     </div>
-    <div class="section" id="Skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>Java SE8</li>
-        <li>HTML5, CSS3</li>
-        <li>Javascript</li>
-        <li>MySQL</li>
-        <li>Java EE, Apache Tomcat, Servlets, JSP</li>
-        <li>Git, GitHub</li>
-        <li>IntelligIDEA, WebStorm</li>
-        <li>Maven</li>
-      </ul>
-    </div>
-    <div class="section" id="projects">
-      <h3>Projects and some codes</h3>
-      <ul>
-        <li>
-          <a href="https://github.com/zhengis-alinur/EnglishLearningApp.git">EnglishLearningApp</a>
-          <span> - is a Java desktop application, which helps everyone to learn English or any other languages by extending their vocabulary. EnglishLearningApp provides you some tools for it, such learning with using cards with words and typing sentences using given word.</span>
-        </li>
-        <li>
-          <a href="https://github.com/zhengis-alinur/CodeWars.git">CodeWars training</a>
-          <span> - I've a repository, where I post solutions for Katas from <a href="https://codewars.com">codewars.com</a>. Mostly I prefer Java.</span>
-        </li>
-        <li>
-          <a href="https://github.com/zhengis-alinur/VirtualPiano-frontend.git">Piano</a>
-          <span> - is a web-application which provides you a virtual mini-piano(because it has only 12 keys). If you click on particular buttons in your keyboard virtual piano produce sounds.</span>
-        </li>
-        <li>
-          <a href="https://github.com/zhengis-alinur/BeatBox.git">BeatBox</a>
-          <span> - is a Java desktop application, which looks like musical equipment, where you can make some insane beats.</span>
-        </li>
-      </ul>
-    </div>
-    <div class="section" id="education">
-      <h3>Education</h3>
-      <ul>
-        <li>School <b>Daryn</b> focusing on mathematics and physics. Kazakhstan, Karaganda.</li>
-        <li>Saint-Petersburg State University in department of Computational Physics. Russian, Saint-Petersburg.(<b>now</b>)</li>
-        <li>Jetbrains Academy - Frontend developer(HTML, CSS, JS).</li>
-      </ul>
-    </div>
+    <footer>
+        <figure>
+            <a href="https://github.com/zhengis-alinur">
+                <img class="logo" id="rss_logo_link" src="https://rs.school/images/rs_school.svg" alt="rss logo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/zhengis-alinur">
+                <img class="logo" id="github_logo_link" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo">
+            </a>
+        </figure>
+        <span>since <time datetime="2021-06-03">2021</time></span>
+        <figure>
+            <a href="https://youtube.com">
+                <img class="logo" id="youtube_logo_link" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="youtube logo">
+            </a>
+        </figure>
+    </footer>
+
 </body>
 </html>
