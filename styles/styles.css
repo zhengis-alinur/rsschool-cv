@@ -128,6 +128,20 @@ section {
   margin-left: 10px;
 }
 
+.education {
+  display: flex;
+}
+
+.degree {
+  width: 80%;
+  margin-right: 10px;
+}
+
+.eng {
+  text-align: center;
+}
+
+
 footer {
   display: flex;
   flex-direction: column;
